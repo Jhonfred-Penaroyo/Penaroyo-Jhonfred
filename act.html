@@ -12,34 +12,36 @@
    <!-- header.header>.container>.header_wrapper -->
    <header class="header">
     <div class="container">
-        
-    <div class="header__wrapper">
-        <h1>LO</h1>
-        <nav>
-            <!-- ul.header__nav>.li*5>a -->
-            <ul class="header__nav"> 
-                <li><a href="./home.html">HOME</a></li>
-                <li><a href="./about.html">ARTICLES</a></li>
-                <li><a href="./lombok.html">SUBSCRIBE</a></li>
-            </ul>   
-        </nav>
+        <div class="header__wrapper">
+           <h1>LO</h1>
+            <nav>
+                <!-- ul.header__nav>.li*5>a -->
+                <ul class="header__nav">
+                    <li><a href="./about.html">ABOUT</a></li>
+                    <li><a href="./catalog.html">ARTICLES</a></li>
+                   
+                    <button>SUBSCRIBE</button>
+            </nav>
+
+        <!-- burger toggle -->
         <div class="toggle__menu">
             <span></span>
             <span></span>
             <span></span>
-        </div>     
+
+        </div>
     </div>
-    </header class="header__zxc">
-    <header>
+</div>
+</header>
+</header>
     <!-- LOMBOK BANNER -->
     <section class="lombokBanner">
-
         <div class="lombok__banner--bg">
             <div class="container">
             <div class="lombokBanner__wrapper">
             <h1>LOMBOK</h1>
-            <p>HOLISTIC HEALTH</p> 
-            <s>.</s>
+            <p>HOLISTIC HEALTH</p>
+            <span class="line"></span> 
             </div>
           </div>
         </div>
@@ -47,66 +49,106 @@
     <!-- LOMBOK CARDS -->
     <section class="catalogSection">
         <div class="container">
-            <h2>LATEST ARTICLES</h2>
-            <s>.</s>
+         <div class="catalogSection__title">
+              <h2>LATEST ARTICLES</h2>
+              <span class="line"></span>
+         </div>
+           
+             
             <div class="catalogSection__wrapper">
-              
-      <div class="catalogSection__card">
-        <img src="./card1.jpg" alt="">
+                <div class="catalogSection__title"> 
+                    <div class="catalogSection__card">
+                        <div class="catalogSection__title">
+        <img src="./img/card1.jpg" alt="">
         <div class="catalogSection__card--content">
-        
-        <p>Lorem ipsum dolor sit amet </p>
-    </div>  
-      </div>
-      <div class="catalogSection__card">
-        <img src="./card2.jpg" alt="">
-        <div class="catalogSection__card--content">
-        
-        <p>Lorem ipsum dolor sit amet </p>
-    </div>  
-      </div>
-      <div class="catalogSection__card">
-        <img src="./card3.jpg" alt="">
-        <div class="catalogSection__card--content">
-       
-        <p>Lorem ipsum dolor sit amet </p>
-    </div>  
-      </div>
+              <span class="line"></span>
+               </div> 
+          <p>how to use mindfullness in your everyday life</p>
+     
+       </div>
+      </div>  
+     </div>
+     <div class="catalogSection__title">
+                    
+        <div class="catalogSection__card">
+            <div class="catalogSection__title">
+<img src="./img/card2.jpg" alt="">
+<div class="catalogSection__card--content">
+  <span class="line"></span>
+   </div> 
+<p>how to use mindfullness in your everyday life</p>
+
+</div>
+</div>  
+</div>
+<div class="catalogSection__title">
+                    
+    <div class="catalogSection__card">
+        <div class="catalogSection__title">
+<img src="./img/card3.jpg" alt="">
+<div class="catalogSection__card--content">
+<span class="line"></span>
+</div> 
+<p>how to use mindfullness in your everyday life</p>
+
+</div>
+</div>  
+</div>
+
       </div>
     </section>
-    <!-- LOMBOK LAST PAGE -->
+    <!-- About page -->
     <section class="aboutBanner">
-        <div class="container">
             <div class="aboutBanner__wrapper">
-                <img src="./aboutimg.jpg" alt="">
+                <img src="./img/aboutimg.jpg" alt="">
                 <div class="aboutBanner__left">
                    
                 </div>
                 <div class="aboutBanner__right">
-                    <h1>ABOUT</h1>
+                    <div class="catalogSection__title">
+                        <h1>ABOUT</h1>
+                        <span class="line"></span>
+                   </div>
                     <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt voluptatibus aliquam nesciunt nulla enim, quo tenetur voluptates molestiae, voluptatem dolorem minima ad iste repellat quia ut. Officia velit in maxime distinctio qui ad mollitia laborum perspiciatis, laudantium corporis dignissimos cumque, eos, fuga officiis amet? Culpa ut laborum maiores in quasi.</P>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam eum est illo nisi officia. Consectetur, tempore numquam, esse vel molestiae id cumque officia rerum similique voluptates voluptatem necessitatibus officiis voluptate illo doloribus consequuntur, repellendus sapiente. Culpa, eligendi consectetur commodi corrupti ratione ea tempore aliquid sed odio, voluptates voluptatem sunt facere magni iste. Enim, ipsam? Eveniet iste distinctio tenetur numquam? Nisi.</p>
-               
                 </div>
             </div>
-        </div>
     </section>
     <!-- SUBSCRIBE PAGE -->
-    <section class="subpage">
-        <div class="container">
-            <div class="subpage__wrapper">
-                <div class="subpage__left">
-                 <h2>SUBSCRIBER</h2>
-                 <P>Sign-up to our newsletter</P>
-                </div>
-                <div class="subpage__right">
-                    <form action="">
-                       <input type="text" placeholder="Your email">
-                        <button>SUBMIT</button>
-                       </form>
-                </div>
+    <section class="subscribesSection">
+        <div class="contaioner">
+            <div class="subscribesSection__wrapper">
+                <h2>SUBSCRIBE</h2>
+                <h4>Sign-up to our newsletter</h4>
+    
+    
+                <form action="">
+                    <input type="text" placeholder="Your email" id="">
+              </form>
+                    <button>SUBMIT</button>
             </div>
         </div>
     </section>
+<!-- Bottom -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer__wrapper">
+            <ul>
+                <li><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href=""><i class=" fa-brands fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa-brands fa-pinterest"></i></a></li>
+            </ul>
+    
+                <div class="footer__right">
+                    <ul>
+                        <li>ABOUT</li>
+                        <li>ARTICLES</li>
+                        <li>SUBSCRIBE</li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+</footer>
 </body>
 </html>
+<script src="./script.js"></script>
